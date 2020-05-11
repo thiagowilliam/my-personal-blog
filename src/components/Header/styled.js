@@ -14,4 +14,6 @@ export const TopoCenter = styled.div`
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 `
