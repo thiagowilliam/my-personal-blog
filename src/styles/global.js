@@ -22,8 +22,6 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
   }
   /* HTML5 display-role reset for older browsers */
@@ -35,8 +33,9 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1;
     -webkit-font-smoothing: antialiased !important;
     font-family: 'Ubuntu', sans-serif;
-    background: #EBEBEB;
+    background: var(--background);
   }
+
   ol, ul {
     list-style: none;
   }
@@ -61,8 +60,24 @@ const GlobalStyles = createGlobalStyle`
     cursor: pointer;
   }
 
-  body, input, button{
-    font: 14px sans-serif;
+  body.light{
+    --background: #EBEBEB;
+    --borders: #57D131;
+    --texts: #656565;
+    --headerBackground: #252934;
+    --white: #FCFCFC;
+    --brightTexts: #FCFCFC;
+    --postsBackground: #FCFCFC;
+  }
+
+  body.dark{
+    --background: #16202c;
+    --borders: #57D131;
+    --texts: #8899a6;
+    --headerBackground: #252934;
+    --white: #FCFCFC;
+    --brightTexts: #FCFCFC;
+    --postsBackground: #252934;
   }
 
 `

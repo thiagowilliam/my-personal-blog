@@ -5,7 +5,7 @@ export const TopoWapper = styled.header`
   top: 0;
   z-index: 9;
   width: 100%;
-  background: rgba(27, 30, 38, 1);
+  background: var(--headerBackground);
   padding: 14px 0;
 `
 

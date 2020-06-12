@@ -1,12 +1,11 @@
 import styled from "styled-components"
 
 export const Container = styled.footer`
-  position: fixed;
-  bottom: 0;
-  z-index: 9;
+  position: relative;
   width: 100%;
-  background: rgba(27, 30, 38, 1);
+  background: var(--headerBackground);
   padding: 14px 0;
+  margin-top: 32px;
 `
 
 export const ContainerCenter = styled.div`
