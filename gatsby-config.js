@@ -6,7 +6,7 @@ module.exports = {
     description: `Um blog sobre front end developer`,
     position: `Desenvolvedor Front End`,
     author: `Thiago William,`,
-    siteUrl: `https://blog-thiagowilliam.com.br`
+    siteUrl: `https://blog.thiagowilliam.com.br`
   },
   plugins: [
     `gatsby-plugin-transition-link`,
