@@ -1,11 +1,12 @@
 import styled from 'styled-components';
+import media from "styled-media-query";
 
 export const ResponsiveMenu = styled.div`
+  display: none;
 
-
-  /* @media (max-width: 490px) {
+  ${media.lessThan("medium")`
     display: flex;
-  } */
+  `}
   /* Individual item */
   .bm-item {
     display: inline-block;

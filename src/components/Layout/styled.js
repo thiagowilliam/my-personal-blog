@@ -11,4 +11,8 @@ export const MainContent = styled.main`
   ${media.lessThan("large")`
     padding: 140px 20px 0 20px;
   `}
+
+  ${media.lessThan("medium")`
+    padding: 96px 20px 0 20px;
+  `}
 `;
