@@ -3,7 +3,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://thiagowilliam.com.br/">
-    <img alt="Gatsby" src="https://thiagowilliam.com.br/static/media/logo-tw.23c006a5.svg" width="60" />
+    <img alt="Gatsby" src="https://thiagowilliam.com.br/static/media/logo-tw.23c006a5.svg" width="120" />
   </a>
 </p>
 <h1 align="center">

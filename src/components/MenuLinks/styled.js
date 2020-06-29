@@ -80,13 +80,4 @@ export const LinkPageSearch = styled(AniLink)`
   }
 `;
 
-export const IconMenu = styled.div`
-  color: #C5C5C5;
-  cursor: pointer;
-  height: 23px;
-  padding-right: 16px;
-  display: none;
-  ${media.lessThan("medium")`
-    display: flex;
-  `}
-`;
+

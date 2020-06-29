@@ -4,7 +4,6 @@ import links from './content'
 
 import { LightBulb } from '@styled-icons/octicons/LightBulb'
 import { Search } from '@styled-icons/feather/Search'
-import { Menu } from '@styled-icons/evaicons-solid/Menu'
 
 import getThemeColor from '../../utils/getThemeColor'
 
@@ -42,14 +41,10 @@ const MenuLinks = () => {
         ))}
         <S.MenuLinksItem>
           <S.MenuLinksLinkOut href="https://thiagowilliam.com.br/" target="_blank">
-            Meu Portifolio
+            Sobre mim
           </S.MenuLinksLinkOut>
         </S.MenuLinksItem>
       </S.MenuLinksList>
-
-      <S.IconMenu>
-        <Menu size="23" title="Menu" />
-      </S.IconMenu>
 
       <S.IconChanceLight onClick={() => {
         window.__setPreferredTheme(isLightMode ? 'dark' : 'light')

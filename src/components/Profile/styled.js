@@ -7,6 +7,11 @@ export const ProfileWapper = styled(AniLink)`
   align-items: center;
   color: #fcfcfc;
   text-decoration: none;
+  ${media.lessThan("medium")`
+    flex-grow: 1;
+    justify-content: center;
+  `}
+
 `
 
 export const DescriptionProfile = styled.div`
